@@ -1,120 +1,3 @@
-// const bigGames = [
-//   { img: "bigGames/1.webp",  },
-//   { img: "bigGames/2.webp",  },
-//   { img: "bigGames/3.webp",  },
-//   { img: "bigGames/4.webp",  },
-//   { img: "bigGames/5.webp",  },
-//   { img: "bigGames/6.webp",  },
-//   { img: "bigGames/7.webp",  },
-//   { img: "bigGames/8.webp",  },
-//   { img: "bigGames/9.webp",  },
-//   { img: "bigGames/10.webp",  },
-//   { img: "bigGames/11.webp",  },
-//   { img: "bigGames/12.webp",  },
-//   { img: "bigGames/13.webp",  },
-//   { img: "bigGames/14.webp",  },
-
-// ];
-
-// const imageGrid2 = document.getElementById("imageGrid2");
-
-// bigGames.forEach((game) => {
-//   const item = document.createElement("div");
-//   item.className = "game-item";
-//   item.innerHTML = `
-//       <img src="${game.img}" class="game-img" loading="lazy" />
-//       <div class="d-flex justify-content-between mt-1 align-items-center img-section">
-//         <div class="d-flex gap-1">
-//           <img src="${game.provider}" loading="lazy" />
-//           <div class="text">Evolution</div>
-//         </div>
-//       </div>
-//       <div class="subtext">Super Andar Bahar</div>
-//     `;
-//   imageGrid2.appendChild(item);
-// });
-// const evolutionGames = [
-//   { img: "evolutionGames/1.webp",  },
-//   { img: "evolutionGames/2.webp",  },
-//   { img: "evolutionGames/3.webp",  },
-//   { img: "evolutionGames/4.webp",  },
-//   { img: "evolutionGames/5.webp",  },
-//   { img: "evolutionGames/6.webp",  },
-//   { img: "evolutionGames/7.webp",  },
-//   { img: "evolutionGames/8.webp",  },
-//   { img: "evolutionGames/9.webp",  },
-//   { img: "evolutionGames/10.webp",  },
-//   { img: "evolutionGames/11.webp",  },
-//   { img: "evolutionGames/12.webp",  },
-//   { img: "evolutionGames/13.webp",  },
-//   { img: "evolutionGames/14.webp",  },
-//   { img: "evolutionGames/15.webp",  },
-//   { img: "evolutionGames/16.webp",  },
-//   { img: "evolutionGames/17.webp",  },
-//   { img: "evolutionGames/18.webp",  },
-//   { img: "evolutionGames/19.webp",  },
-//   { img: "evolutionGames/20.webp",  },
-//   { img: "evolutionGames/21.webp",  },
-//   { img: "evolutionGames/22.webp",  },
-//   { img: "evolutionGames/23.webp",  },
-//   { img: "evolutionGames/25.webp",  },
-//   { img: "evolutionGames/26.webp",  },
-//   { img: "evolutionGames/26.webp",  },
-//   { img: "evolutionGames/27.webp",  },
-//   { img: "evolutionGames/28.webp",  },
-//   { img: "evolutionGames/29.webp",  },
-//   { img: "evolutionGames/30.webp",  },
-//   { img: "evolutionGames/31.webp",  },
-//   { img: "evolutionGames/32.webp",  },
-//   { img: "evolutionGames/33.webp",  },
-//   { img: "evolutionGames/34.webp",  },
-//   { img: "evolutionGames/35.webp",  },
-//   { img: "evolutionGames/36.webp",  },
-//   { img: "evolutionGames/37.webp",  },
-//   { img: "evolutionGames/38.webp",  },
-//   { img: "evolutionGames/39.webp",  },
-//   { img: "evolutionGames/40.webp",  },
-//   { img: "evolutionGames/41.webp",  },
-//   { img: "evolutionGames/42.webp",  },
-//   { img: "evolutionGames/43.webp",  },
-//   { img: "evolutionGames/44.webp",  },
-//   { img: "evolutionGames/45.webp",  },
-//   { img: "evolutionGames/46.webp",  },
-//   { img: "evolutionGames/47.webp",  },
-//   { img: "evolutionGames/48.webp",  },
-//   { img: "evolutionGames/49.webp",  },
-//   { img: "evolutionGames/50.webp",  },
-//   { img: "evolutionGames/51.webp",  },
-//   { img: "evolutionGames/52.webp",  },
-//   { img: "evolutionGames/53.webp",  },
-//   { img: "evolutionGames/54.webp",  },
-//   { img: "evolutionGames/55.webp",  },
-//   { img: "evolutionGames/56.webp",  },
-//   { img: "evolutionGames/57.webp",  },
-//   { img: "evolutionGames/58.webp",  },
-//   { img: "evolutionGames/59.webp",  },
-//   { img: "evolutionGames/60.webp",  },
-
-// ];
-
-// const imageGrid1 = document.getElementById("imageGrid1");
-
-// evolutionGames.forEach((game) => {
-//   const item = document.createElement("div");
-//   item.className = "game-item";
-//   item.innerHTML = `
-//       <img src="${game.img}" class="game-img" loading="lazy" />
-//       <div class="d-flex justify-content-between mt-1 align-items-center img-section">
-//         <div class="d-flex gap-1">
-//           <img src="${game.provider}" loading="lazy" />
-//           <div class="text">Evolution</div>
-//         </div>
-//       </div>
-//       <div class="subtext">Super Andar Bahar</div>
-//     `;
-//   imageGrid1.appendChild(item);
-// });
-
 document.addEventListener("DOMContentLoaded", () => {
   const bigGames = [
     { img: "bigGames/1.webp", title: "Big Games" },
@@ -567,53 +450,53 @@ document.addEventListener("DOMContentLoaded", () => {
     { img: "betGames/20.webp", title: "Bet Games" },
   ];
   const jiliGames = [
-    { img: "slotGames/1.webp", title: "Jili Games" },
-    { img: "slotGames/2.webp", title: "Jili Games" },
-    { img: "slotGames/4.webp", title: "Jili Games" },
-    { img: "slotGames/5.webp", title: "Jili Games" },
-    { img: "slotGames/6.webp", title: "Jili Games" },
-    { img: "slotGames/8.webp", title: "Jili Games" },
-    { img: "slotGames/9.webp", title: "Jili Games" },
-    { img: "slotGames/10.webp", title: "Jili Games" },
-    { img: "slotGames/11.webp", title: "Jili Games" },
-    { img: "slotGames/12.webp", title: "Jili Games" },
-    { img: "slotGames/13.webp", title: "Jili Games" },
-    { img: "slotGames/14.webp", title: "Jili Games" },
-    { img: "slotGames/15.webp", title: "Jili Games" },
-    { img: "slotGames/16.webp", title: "Jili Games" },
-    { img: "slotGames/17.webp", title: "Jili Games" },
-    { img: "slotGames/18.webp", title: "Jili Games" },
-    { img: "slotGames/19.webp", title: "Jili Games" },
-    { img: "slotGames/20.webp", title: "Jili Games" },
-    { img: "slotGames/21.webp", title: "Jili Games" },
-    { img: "slotGames/22.webp", title: "Jili Games" },
-    { img: "slotGames/23.webp", title: "Jili Games" },
-    { img: "slotGames/24.webp", title: "Jili Games" },
-    { img: "slotGames/25.webp", title: "Jili Games" },
-    { img: "slotGames/26.webp", title: "Jili Games" },
-    { img: "slotGames/27.webp", title: "Jili Games" },
-    { img: "slotGames/28.webp", title: "Jili Games" },
-    { img: "slotGames/29.webp", title: "Jili Games" },
-    { img: "slotGames/30.webp", title: "Jili Games" },
-    { img: "slotGames/31.webp", title: "Jili Games" },
-    { img: "slotGames/32.webp", title: "Jili Games" },
-    { img: "slotGames/33.webp", title: "Jili Games" },
-    { img: "slotGames/34.webp", title: "Jili Games" },
-    { img: "slotGames/35.webp", title: "Jili Games" },
-    { img: "slotGames/36.webp", title: "Jili Games" },
-    { img: "slotGames/37.webp", title: "Jili Games" },
-    { img: "slotGames/38.webp", title: "Jili Games" },
-    { img: "slotGames/39.webp", title: "Jili Games" },
-    { img: "slotGames/40.webp", title: "Jili Games" },
-    { img: "slotGames/41.webp", title: "Jili Games" },
-    { img: "slotGames/42.webp", title: "Jili Games" },
-    { img: "slotGames/43.webp", title: "Jili Games" },
-    { img: "slotGames/44.webp", title: "Jili Games" },
-    { img: "slotGames/45.webp", title: "Jili Games" },
-    { img: "slotGames/47.webp", title: "Jili Games" },
-    { img: "slotGames/48.webp", title: "Jili Games" },
-    { img: "slotGames/49.webp", title: "Jili Games" },
-    { img: "slotGames/50.webp", title: "Jili Games" },
+    { img: "slotGames/1.png", title: "Jili Games" },
+    { img: "slotGames/2.png", title: "Jili Games" },
+    { img: "slotGames/4.png", title: "Jili Games" },
+    { img: "slotGames/5.png", title: "Jili Games" },
+    { img: "slotGames/6.png", title: "Jili Games" },
+    { img: "slotGames/8.png", title: "Jili Games" },
+    { img: "slotGames/9.png", title: "Jili Games" },
+    { img: "slotGames/10.png", title: "Jili Games" },
+    { img: "slotGames/11.png", title: "Jili Games" },
+    { img: "slotGames/12.png", title: "Jili Games" },
+    { img: "slotGames/13.png", title: "Jili Games" },
+    { img: "slotGames/14.png", title: "Jili Games" },
+    { img: "slotGames/15.png", title: "Jili Games" },
+    { img: "slotGames/16.png", title: "Jili Games" },
+    { img: "slotGames/17.png", title: "Jili Games" },
+    { img: "slotGames/18.png", title: "Jili Games" },
+    { img: "slotGames/19.png", title: "Jili Games" },
+    { img: "slotGames/20.png", title: "Jili Games" },
+    { img: "slotGames/21.png", title: "Jili Games" },
+    { img: "slotGames/22.png", title: "Jili Games" },
+    { img: "slotGames/23.png", title: "Jili Games" },
+    { img: "slotGames/24.png", title: "Jili Games" },
+    { img: "slotGames/25.png", title: "Jili Games" },
+    { img: "slotGames/26.png", title: "Jili Games" },
+    { img: "slotGames/27.png", title: "Jili Games" },
+    { img: "slotGames/28.png", title: "Jili Games" },
+    { img: "slotGames/29.png", title: "Jili Games" },
+    { img: "slotGames/30.png", title: "Jili Games" },
+    { img: "slotGames/31.png", title: "Jili Games" },
+    { img: "slotGames/32.png", title: "Jili Games" },
+    { img: "slotGames/33.png", title: "Jili Games" },
+    { img: "slotGames/34.png", title: "Jili Games" },
+    { img: "slotGames/35.png", title: "Jili Games" },
+    { img: "slotGames/36.png", title: "Jili Games" },
+    { img: "slotGames/37.png", title: "Jili Games" },
+    { img: "slotGames/38.png", title: "Jili Games" },
+    { img: "slotGames/39.png", title: "Jili Games" },
+    { img: "slotGames/40.png", title: "Jili Games" },
+    { img: "slotGames/41.png", title: "Jili Games" },
+    { img: "slotGames/42.png", title: "Jili Games" },
+    { img: "slotGames/43.png", title: "Jili Games" },
+    { img: "slotGames/44.png", title: "Jili Games" },
+    { img: "slotGames/45.png", title: "Jili Games" },
+    { img: "slotGames/47.png", title: "Jili Games" },
+    { img: "slotGames/48.png", title: "Jili Games" },
+    { img: "slotGames/49.png", title: "Jili Games" },
+    { img: "slotGames/50.png", title: "Jili Games" },
   ];
   const habanero = [
     { img: "habaneroGames/1.webp", title: "Habanero Games" },
