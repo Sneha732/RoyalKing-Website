@@ -1465,7 +1465,7 @@ document.addEventListener("DOMContentLoaded", () => {
           <div class="text">Evolution</div>
         </div>
       </div>
-      <div class="subtext">${game.title}</div>
+      <div class="subtext" style="color: white;">${game.title}</div>
     `;
     imageGrid2?.appendChild(item); // optional chaining to be safe
   });
@@ -1482,7 +1482,7 @@ document.addEventListener("DOMContentLoaded", () => {
           <div class="text">Evolution</div>
         </div>
       </div>
-      <div class="subtext">${game.title}</div>
+      <div class="subtext" style="color: white;">${game.title}</div>
     `;
     imageGrid1?.appendChild(item); // optional chaining to be safe
   });
@@ -1499,7 +1499,7 @@ document.addEventListener("DOMContentLoaded", () => {
           <div class="text">Evolution</div>
         </div>
       </div>
-      <div class="subtext">${game.title}</div>
+      <div class="subtext" style="color: white;">${game.title}</div>
     `;
     imageGrid3?.appendChild(item); // optional chaining to be safe
   });
@@ -1516,7 +1516,7 @@ document.addEventListener("DOMContentLoaded", () => {
           <div class="text">Evolution</div>
         </div>
       </div>
-      <div class="subtext">${game.title}</div>
+      <div class="subtext" style="color: white;">${game.title}</div>
     `;
     imageGrid4?.appendChild(item); // optional chaining to be safe
   });
@@ -1533,7 +1533,7 @@ document.addEventListener("DOMContentLoaded", () => {
           <div class="text">Evolution</div>
         </div>
       </div>
-      <div class="subtext">${game.title}</div>
+      <div class="subtext" style="color: white;">${game.title}</div>
     `;
     imageGrid5?.appendChild(item); // optional chaining to be safe
   });
@@ -1550,7 +1550,7 @@ document.addEventListener("DOMContentLoaded", () => {
           <div class="text">Evolution</div>
         </div>
       </div>
-      <div class="subtext">${game.title}</div>
+      <div class="subtext" style="color: white;">${game.title}</div>
     `;
     imageGrid6?.appendChild(item); // optional chaining to be safe
   });
@@ -1567,7 +1567,7 @@ document.addEventListener("DOMContentLoaded", () => {
           <div class="text">Evolution</div>
         </div>
       </div>
-      <div class="subtext">${game.title}</div>
+      <div class="subtext" style="color: white;">${game.title}</div>
     `;
     imageGrid7?.appendChild(item); // optional chaining to be safe
   });
@@ -1584,7 +1584,7 @@ document.addEventListener("DOMContentLoaded", () => {
           <div class="text">Evolution</div>
         </div>
       </div>
-      <div class="subtext">${game.title}</div>
+      <div class="subtext" style="color: white;">${game.title}</div>
     `;
     imageGrid8?.appendChild(item); // optional chaining to be safe
   });
@@ -1601,7 +1601,7 @@ document.addEventListener("DOMContentLoaded", () => {
           <div class="text">Evolution</div>
         </div>
       </div>
-      <div class="subtext">${game.title}</div>
+      <div class="subtext" style="color: white;">${game.title}</div>
     `;
     imageGrid9?.appendChild(item); // optional chaining to be safe
   });
@@ -1618,7 +1618,7 @@ document.addEventListener("DOMContentLoaded", () => {
           <div class="text">Evolution</div>
         </div>
       </div>
-      <div class="subtext">${game.title}</div>
+      <div class="subtext" style="color: white;">${game.title}</div>
     `;
     imageGrid10?.appendChild(item); // optional chaining to be safe
   });
@@ -1635,7 +1635,7 @@ document.addEventListener("DOMContentLoaded", () => {
           <div class="text">Evolution</div>
         </div>
       </div>
-      <div class="subtext">${game.title}</div>
+      <div class="subtext" style="color: white;">${game.title}</div>
     `;
     imageGrid11?.appendChild(item); // optional chaining to be safe
   });
@@ -1652,7 +1652,7 @@ document.addEventListener("DOMContentLoaded", () => {
           <div class="text">Evolution</div>
         </div>
       </div>
-      <div class="subtext">${game.title}</div>
+      <div class="subtext" style="color: white;">${game.title}</div>
     `;
     imageGrid12?.appendChild(item); // optional chaining to be safe
   });
@@ -1686,7 +1686,7 @@ document.addEventListener("DOMContentLoaded", () => {
           <div class="text">Evolution</div>
         </div>
       </div>
-      <div class="subtext">${game.title}</div>
+      <div class="subtext" style="color: white;">${game.title}</div>
     `;
     imageGrid14?.appendChild(item); // optional chaining to be safe
   });
@@ -1703,7 +1703,7 @@ document.addEventListener("DOMContentLoaded", () => {
           <div class="text">Evolution</div>
         </div>
       </div>
-      <div class="subtext">${game.title}</div>
+      <div class="subtext" style="color: white;">${game.title}</div>
     `;
     imageGrid15?.appendChild(item); // optional chaining to be safe
   });
@@ -1720,7 +1720,7 @@ document.addEventListener("DOMContentLoaded", () => {
           <div class="text">Evolution</div>
         </div>
       </div>
-      <div class="subtext">${game.title}</div>
+      <div class="subtext" style="color: white;">${game.title}</div>
     `;
     imageGrid16?.appendChild(item); // optional chaining to be safe
   });
@@ -1737,7 +1737,7 @@ document.addEventListener("DOMContentLoaded", () => {
           <div class="text">Evolution</div>
         </div>
       </div>
-      <div class="subtext">${game.title}</div>
+      <div class="subtext" style="color: white;">${game.title}</div>
     `;
     imageGrid17?.appendChild(item); // optional chaining to be safe
   });
@@ -1754,7 +1754,7 @@ document.addEventListener("DOMContentLoaded", () => {
           <div class="text">Evolution</div>
         </div>
       </div>
-      <div class="subtext">${game.title}</div>
+      <div class="subtext" style="color: white;">${game.title}</div>
     `;
     imageGrid18?.appendChild(item); // optional chaining to be safe
   });
@@ -1771,7 +1771,7 @@ document.addEventListener("DOMContentLoaded", () => {
           <div class="text">Evolution</div>
         </div>
       </div>
-      <div class="subtext">${game.title}</div>
+      <div class="subtext" style="color: white;">${game.title}</div>
     `;
     imageGrid19?.appendChild(item); // optional chaining to be safe
   });
@@ -1788,7 +1788,7 @@ document.addEventListener("DOMContentLoaded", () => {
           <div class="text">Evolution</div>
         </div>
       </div>
-      <div class="subtext">${game.title}</div>
+      <div class="subtext" style="color: white;">${game.title}</div>
     `;
     imageGrid20?.appendChild(item); // optional chaining to be safe
   });
@@ -1805,7 +1805,7 @@ document.addEventListener("DOMContentLoaded", () => {
           <div class="text">Evolution</div>
         </div>
       </div>
-      <div class="subtext">${game.title}</div>
+      <div class="subtext" style="color: white;">${game.title}</div>
     `;
     imageGrid21?.appendChild(item); // optional chaining to be safe
   });
@@ -1822,7 +1822,7 @@ document.addEventListener("DOMContentLoaded", () => {
           <div class="text">Evolution</div>
         </div>
       </div>
-      <div class="subtext">${game.title}</div>
+      <div class="subtext" style="color: white;">${game.title}</div>
     `;
     imageGrid22?.appendChild(item); // optional chaining to be safe
   });
@@ -1839,7 +1839,7 @@ document.addEventListener("DOMContentLoaded", () => {
           <div class="text">Evolution</div>
         </div>
       </div>
-      <div class="subtext">${game.title}</div>
+      <div class="subtext" style="color: white;">${game.title}</div>
     `;
     imageGrid23?.appendChild(item); // optional chaining to be safe
   });
@@ -1856,7 +1856,7 @@ document.addEventListener("DOMContentLoaded", () => {
           <div class="text">Evolution</div>
         </div>
       </div>
-      <div class="subtext">${game.title}</div>
+      <div class="subtext" style="color: white;">${game.title}</div>
     `;
     imageGrid24?.appendChild(item); // optional chaining to be safe
   });
@@ -1873,7 +1873,7 @@ document.addEventListener("DOMContentLoaded", () => {
           <div class="text">Evolution</div>
         </div>
       </div>
-      <div class="subtext">${game.title}</div>
+      <div class="subtext" style="color: white;">${game.title}</div>
     `;
     imageGrid25?.appendChild(item); // optional chaining to be safe
   });
@@ -1890,7 +1890,7 @@ document.addEventListener("DOMContentLoaded", () => {
           <div class="text">Evolution</div>
         </div>
       </div>
-      <div class="subtext">${game.title}</div>
+      <div class="subtext" style="color: white;">${game.title}</div>
     `;
     imageGrid26?.appendChild(item); // optional chaining to be safe
   });
@@ -1907,7 +1907,7 @@ document.addEventListener("DOMContentLoaded", () => {
           <div class="text">Evolution</div>
         </div>
       </div>
-      <div class="subtext">${game.title}</div>
+      <div class="subtext" style="color: white;">${game.title}</div>
     `;
     imageGrid27?.appendChild(item); // optional chaining to be safe
   });
@@ -1924,7 +1924,7 @@ document.addEventListener("DOMContentLoaded", () => {
           <div class="text">Evolution</div>
         </div>
       </div>
-      <div class="subtext">${game.title}</div>
+      <div class="subtext" style="color: white;">${game.title}</div>
     `;
     imageGrid28?.appendChild(item); // optional chaining to be safe
   });
@@ -1941,7 +1941,7 @@ document.addEventListener("DOMContentLoaded", () => {
           <div class="text">Evolution</div>
         </div>
       </div>
-      <div class="subtext">${game.title}</div>
+      <div class="subtext" style="color: white;">${game.title}</div>
     `;
     imageGrid29?.appendChild(item); // optional chaining to be safe
   });
@@ -1958,7 +1958,7 @@ document.addEventListener("DOMContentLoaded", () => {
           <div class="text">Evolution</div>
         </div>
       </div>
-      <div class="subtext">${game.title}</div>
+      <div class="subtext" style="color: white;">${game.title}</div>
     `;
     imageGrid30?.appendChild(item); // optional chaining to be safe
   });
@@ -1975,7 +1975,7 @@ document.addEventListener("DOMContentLoaded", () => {
           <div class="text">Evolution</div>
         </div>
       </div>
-      <div class="subtext">${game.title}</div>
+      <div class="subtext" style="color: white;">${game.title}</div>
     `;
     imageGrid31?.appendChild(item); // optional chaining to be safe
   });
@@ -1992,7 +1992,7 @@ document.addEventListener("DOMContentLoaded", () => {
           <div class="text">Evolution</div>
         </div>
       </div>
-      <div class="subtext">${game.title}</div>
+      <div class="subtext" style="color: white;">${game.title}</div>
     `;
     imageGrid32?.appendChild(item); // optional chaining to be safe
   });
@@ -2009,7 +2009,7 @@ document.addEventListener("DOMContentLoaded", () => {
           <div class="text">Evolution</div>
         </div>
       </div>
-      <div class="subtext">${game.title}</div>
+      <div class="subtext" style="color: white;">${game.title}</div>
     `;
     imageGrid33?.appendChild(item); // optional chaining to be safe
   });
@@ -2026,7 +2026,7 @@ document.addEventListener("DOMContentLoaded", () => {
           <div class="text">Evolution</div>
         </div>
       </div>
-      <div class="subtext">${game.title}</div>
+      <div class="subtext" style="color: white;">${game.title}</div>
     `;
     imageGrid34?.appendChild(item); // optional chaining to be safe
   });
@@ -2043,7 +2043,7 @@ document.addEventListener("DOMContentLoaded", () => {
           <div class="text">Evolution</div>
         </div>
       </div>
-      <div class="subtext">${game.title}</div>
+      <div class="subtext" style="color: white;">${game.title}</div>
     `;
     imageGrid35?.appendChild(item); // optional chaining to be safe
   });
