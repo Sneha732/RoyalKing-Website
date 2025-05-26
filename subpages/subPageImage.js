@@ -417,7 +417,6 @@ document.addEventListener("DOMContentLoaded", () => {
     { img: "pragmaticGames/298.webp", title: "Pragmatic Play Games" },
     { img: "pragmaticGames/319.webp", title: "Pragmatic Play Games" },
     { img: "pragmaticGames/320.webp", title: "Pragmatic Play Games" },
-    { img: "pragmaticGames/321.webp", title: "Pragmatic Play Games" },
     { img: "pragmaticGames/322.webp", title: "Pragmatic Play Games" },
     { img: "pragmaticGames/323.webp", title: "Pragmatic Play Games" },
     { img: "pragmaticGames/324.webp", title: "Pragmatic Play Games" },
