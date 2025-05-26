@@ -1675,7 +1675,7 @@ document.addEventListener("DOMContentLoaded", () => {
           <div class="text">Evolution</div>
         </div>
       </div>
-      <div class="subtext">Super Andar Bahar</div>
+      <div class="subtext">{game.title}</div>
     `;
     imageGrid13?.appendChild(item); // optional chaining to be safe
   });
