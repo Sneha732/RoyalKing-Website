@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../assets/css/bootstrap.min.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="../style.css" />
+    <link rel="stylesheet" href="casino.css" />
+  </head>
+  <body>
+    <div class="main">
+      <div id="navbar-container"></div>
+      <div class="main-content d-flex mt-4 gap-lg-3">
+        <div class="content-wrapper">
+          <!-- <div class="layout"></div> -->
+          <div id="sidebar-container"></div>
+        </div>
+        <div
+          class="d-flex flex-column flex-md-row gap-3 equal-columns casino-page"
+        >
+     
+
+          <div class="image-grid-container mt-4">
+              <div id="carousel-container"></div>
+            <div class="image-grid mt-5">
+              <div class="game-item">
+                <img src="images/1.png" class="game-img" />
+                <div
+                  class="d-flex justify-content-between mt-1 align-items-center img-section"
+                >
+                  <div class="d-flex gap-1">
+                    <img src="images/spribe.png" />
+                    <div class="text">Spribe</div>
+                  </div>
+                </div>
+                <div class="spribe-text">Avaitor</div>
+              </div>
+
+               <div class="game-item">
+                <img src="images/273.webp" class="game-img" />
+                <div
+                  class="d-flex justify-content-between mt-1 align-items-center img-section"
+                >
+                  <div class="d-flex gap-1">
+                    <img src="images/evolution.svg" />
+                    <div class="text">Evolution</div>
+                  </div>
+                </div>
+                <div class="spribe-text">Immersive Roulette</div>
+              </div>
+
+            <div class="game-item">
+                <img src="images/306.webp" class="game-img" />
+                <div
+                  class="d-flex justify-content-between mt-1 align-items-center img-section"
+                >
+                  <div class="d-flex gap-1">
+                    <img src="images/evolution.svg" />
+                    <div class="text">Evolution</div>
+                  </div>
+                </div>
+                <div class="spribe-text">First Person XXXtreme Lightning</div>
+              </div>
+
+              <div class="game-item">
+                <img src="images/1.webp" class="game-img" />
+                <div
+                  class="d-flex justify-content-between mt-1 align-items-center img-section"
+                >
+                  <div class="d-flex gap-1">
+                    <img src="images/evolution.svg" />
+                    <div class="text">Evolution</div>
+                  </div>
+                </div>
+                <div class="spribe-text">Super Andar Bahar</div>
+              </div>
+
+             
+               <div class="game-item">
+                <img src="images/2.webp" class="game-img" />
+                <div
+                  class="d-flex justify-content-between mt-1 align-items-center img-section"
+                >
+                  <div class="d-flex gap-1">
+                    <img src="images/microgaming.svg" />
+                    <div class="text">Micro Gaming</div>
+                  </div>
+                </div>
+                <div class="spribe-text">Blackjack Amsterdam</div>
+              </div>
+
+               <div class="game-item">
+                <img src="images/38.webp" class="game-img" />
+                <div
+                  class="d-flex justify-content-between mt-1 align-items-center img-section"
+                >
+                  <div class="d-flex gap-1">
+                    <img src="images/microgaming.svg" />
+                    <div class="spribe-text">Micro Gaming</div>
+                  </div>
+                </div>
+                <div class="spribe-text">Blackjack London</div>
+              </div>
+
+           <div class="game-item">
+                <img src="images/143.png" class="game-img" />
+                <div
+                  class="d-flex justify-content-between mt-1 align-items-center img-section"
+                >
+                  <div class="d-flex gap-1">
+                    <img src="images/ezugi.svg" />
+                    <div class="text">Ezugi</div>
+                  </div>
+                </div>
+                <div class="subtext">Andar Bahar</div>
+              </div>
+
+             <div class="game-item">
+                <img src="images/goal.png" class="game-img" />
+                <div
+                  class="d-flex justify-content-between mt-1 align-items-center img-section"
+                >
+                  <div class="d-flex gap-1">
+                    <img src="images/jilli.svg" />
+                    <div class="text">JiLi</div>
+                  </div>
+                </div>
+                <div class="subtext">Moeny Coming</div>
+              </div>
+             
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        // Load Navbar (parent folder)
+        const navbarPlaceholder = document.getElementById("navbar-container");
+        if (navbarPlaceholder) {
+          fetch("../navbar.html")
+            .then((res) => res.text())
+            .then((data) => {
+              navbarPlaceholder.innerHTML = data;
+            })
+            .catch((err) => console.error("Error loading navbar:", err));
+        }
+
+        // Load Footer (parent folder)
+        const footerPlaceholder = document.getElementById("footer-container");
+        if (footerPlaceholder) {
+          fetch("../footer.html")
+            .then((res) => res.text())
+            .then((data) => {
+              footerPlaceholder.innerHTML = data;
+            })
+            .catch((err) => console.error("Error loading footer:", err));
+        }
+
+        // Load Sidebar (same folder)
+        const sidebarPlaceholder = document.getElementById("sidebar-container");
+        if (sidebarPlaceholder) {
+          fetch("sidebar.html")
+            .then((res) => res.text())
+            .then((data) => {
+              sidebarPlaceholder.innerHTML = data;
+            })
+            .catch((err) => console.error("Error loading sidebar:", err));
+        }
+
+        // Load Carousel (same folder)
+        const carouselPlaceholder =
+          document.getElementById("carousel-container");
+        if (carouselPlaceholder) {
+          fetch("carousel.html")
+            .then((res) => res.text())
+            .then((data) => {
+              carouselPlaceholder.innerHTML = data;
+            })
+            .catch((err) => console.error("Error loading carousel:", err));
+        }
+      });
+    </script>
+    <div
+      id="loginModal"
+      class="modal"
+      style="display: none; position: relative"
+    >
+      <span class="close" onclick="closeModal('loginModal')">&times;</span>
+    </div>
+
+    <div
+      id="registerModal"
+      class="modal"
+      style="display: none; position: relative"
+    >
+      <span class="register-close" onclick="closeModal('registerModal')"
+        >&times;</span
+      >
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
