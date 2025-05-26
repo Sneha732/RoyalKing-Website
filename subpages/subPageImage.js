@@ -231,7 +231,6 @@ document.addEventListener("DOMContentLoaded", () => {
     { img: "live88Games/115.webp", title: "Live 88 Games" },
     { img: "live88Games/125.webp", title: "Live 88 Games" },
     { img: "live88Games/126.webp", title: "Live 88 Games" },
-    { img: "live88Games/129.webp", title: "Live 88 Games" },
     { img: "live88Games/130.webp", title: "Live 88 Games" },
     { img: "live88Games/131.webp", title: "Live 88 Games" },
     { img: "live88Games/132.webp", title: "Live 88 Games" },
@@ -282,7 +281,6 @@ document.addEventListener("DOMContentLoaded", () => {
     { img: "playTechGames/477.webp", title: "Playtech Games" },
     { img: "playTechGames/482.webp", title: "Playtech Games" },
     { img: "playTechGames/490.webp", title: "Playtech Games" },
-    { img: "playTechGames/495.webp", title: "Playtech Games" },
     { img: "playTechGames/499.webp", title: "Playtech Games" },
     { img: "playTechGames/510.webp", title: "Playtech Games" },
   ];
