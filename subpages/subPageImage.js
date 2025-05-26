@@ -356,16 +356,16 @@ document.addEventListener("DOMContentLoaded", () => {
     { img: "skywindGames/357.webp", title: "Skywind Games" },
     { img: "skywindGames/388.webp", title: "Skywind Games" },
     { img: "skywindGames/438.webp", title: "Skywind Games" },
-    { img: "skywindGames/439.webp" },
-    { img: "skywindGames/440.webp" },
-    { img: "skywindGames/441.webp" },
-    { img: "skywindGames/442.webp" },
-    { img: "skywindGames/443.webp" },
-    { img: "skywindGames/444.webp" },
-    { img: "skywindGames/445.webp" },
-    { img: "skywindGames/446.webp" },
-    { img: "skywindGames/484.webp" },
-    { img: "skywindGames/488.webp" },
+    { img: "skywindGames/439.webp" , title: "Skywind Games"},
+    { img: "skywindGames/440.webp" , title: "Skywind Games"},
+    { img: "skywindGames/441.webp" , title: "Skywind Games"},
+    { img: "skywindGames/442.webp" , title: "Skywind Games"},
+    { img: "skywindGames/443.webp" , title: "Skywind Games"},
+    { img: "skywindGames/444.webp" , title: "Skywind Games"},
+    { img: "skywindGames/445.webp" , title: "Skywind Games"},
+    { img: "skywindGames/446.webp" , title: "Skywind Games"},
+    { img: "skywindGames/484.webp" , title: "Skywind Games"},
+    { img: "skywindGames/488.webp" , title: "Skywind Games"},
     { img: "skywindGames/489.webp", title: "Skywind Games" },
     { img: "skywindGames/490.webp", title: "Skywind Games" },
   ];
@@ -1053,28 +1053,28 @@ document.addEventListener("DOMContentLoaded", () => {
     { img: "wazdanGames/9.png", title: "Wazdan Games" },
     { img: "wazdanGames/10.png", title: "Wazdan Games" },
     { img: "wazdanGames/11.png", title: "Wazdan Games" },
-    { img: "wazdanGames/12.png" },
-    { img: "wazdanGames/13.png" },
-    { img: "wazdanGames/14.png" },
-    { img: "wazdanGames/15.png" },
-    { img: "wazdanGames/17.png" },
-    { img: "wazdanGames/18.png" },
-    { img: "wazdanGames/19.png" },
-    { img: "wazdanGames/20.png" },
-    { img: "wazdanGames/21.png" },
-    { img: "wazdanGames/22.png" },
-    { img: "wazdanGames/23.png" },
-    { img: "wazdanGames/24.png" },
-    { img: "wazdanGames/25.png" },
-    { img: "wazdanGames/26.png" },
-    { img: "wazdanGames/27.png" },
-    { img: "wazdanGames/28.png" },
-    { img: "wazdanGames/29.png" },
-    { img: "wazdanGames/30.png" },
-    { img: "wazdanGames/31.png" },
-    { img: "wazdanGames/32.png" },
-    { img: "wazdanGames/33.png" },
-    { img: "wazdanGames/34.png" },
+    { img: "wazdanGames/12.png" , title: "Wazdan Games" },
+    { img: "wazdanGames/13.png" , title: "Wazdan Games" },
+    { img: "wazdanGames/14.png" , title: "Wazdan Games" },
+    { img: "wazdanGames/15.png" , title: "Wazdan Games" },
+    { img: "wazdanGames/17.png" , title: "Wazdan Games" },
+    { img: "wazdanGames/18.png" , title: "Wazdan Games" },
+    { img: "wazdanGames/19.png" , title: "Wazdan Games" },
+    { img: "wazdanGames/20.png" , title: "Wazdan Games" },
+    { img: "wazdanGames/21.png" , title: "Wazdan Games" },
+    { img: "wazdanGames/22.png" , title: "Wazdan Games" },
+    { img: "wazdanGames/23.png" , title: "Wazdan Games" },
+    { img: "wazdanGames/24.png" , title: "Wazdan Games" },
+    { img: "wazdanGames/25.png" , title: "Wazdan Games" },
+    { img: "wazdanGames/26.png" , title: "Wazdan Games" },
+    { img: "wazdanGames/27.png" , title: "Wazdan Games" },
+    { img: "wazdanGames/28.png" , title: "Wazdan Games" },
+    { img: "wazdanGames/29.png" , title: "Wazdan Games" },
+    { img: "wazdanGames/30.png" , title: "Wazdan Games" },
+    { img: "wazdanGames/31.png" , title: "Wazdan Games" },
+    { img: "wazdanGames/32.png" , title: "Wazdan Games" },
+    { img: "wazdanGames/33.png" , title: "Wazdan Games" },
+    { img: "wazdanGames/34.png" , title: "Wazdan Games" },
     { img: "wazdanGames/35.png", title: "Wazdan Games" },
     { img: "wazdanGames/36.png", title: "Wazdan Games" },
     { img: "wazdanGames/37.png", title: "Wazdan Games" },
@@ -1465,7 +1465,7 @@ document.addEventListener("DOMContentLoaded", () => {
           <div class="text">Evolution</div>
         </div>
       </div>
-      <div class="subtext">Super Andar Bahar</div>
+      <div class="subtext">${game.title}</div>
     `;
     imageGrid2?.appendChild(item); // optional chaining to be safe
   });
@@ -1482,7 +1482,7 @@ document.addEventListener("DOMContentLoaded", () => {
           <div class="text">Evolution</div>
         </div>
       </div>
-      <div class="subtext">Super Andar Bahar</div>
+      <div class="subtext">${game.title}</div>
     `;
     imageGrid1?.appendChild(item); // optional chaining to be safe
   });
@@ -1499,7 +1499,7 @@ document.addEventListener("DOMContentLoaded", () => {
           <div class="text">Evolution</div>
         </div>
       </div>
-      <div class="subtext">Super Andar Bahar</div>
+      <div class="subtext">${game.title}</div>
     `;
     imageGrid3?.appendChild(item); // optional chaining to be safe
   });
@@ -1516,7 +1516,7 @@ document.addEventListener("DOMContentLoaded", () => {
           <div class="text">Evolution</div>
         </div>
       </div>
-      <div class="subtext">Super Andar Bahar</div>
+      <div class="subtext">${game.title}</div>
     `;
     imageGrid4?.appendChild(item); // optional chaining to be safe
   });
@@ -1533,7 +1533,7 @@ document.addEventListener("DOMContentLoaded", () => {
           <div class="text">Evolution</div>
         </div>
       </div>
-      <div class="subtext">Super Andar Bahar</div>
+      <div class="subtext">${game.title}</div>
     `;
     imageGrid5?.appendChild(item); // optional chaining to be safe
   });
@@ -1550,7 +1550,7 @@ document.addEventListener("DOMContentLoaded", () => {
           <div class="text">Evolution</div>
         </div>
       </div>
-      <div class="subtext">Super Andar Bahar</div>
+      <div class="subtext">${game.title}</div>
     `;
     imageGrid6?.appendChild(item); // optional chaining to be safe
   });
@@ -1567,7 +1567,7 @@ document.addEventListener("DOMContentLoaded", () => {
           <div class="text">Evolution</div>
         </div>
       </div>
-      <div class="subtext">Super Andar Bahar</div>
+      <div class="subtext">${game.title}</div>
     `;
     imageGrid7?.appendChild(item); // optional chaining to be safe
   });
@@ -1584,7 +1584,7 @@ document.addEventListener("DOMContentLoaded", () => {
           <div class="text">Evolution</div>
         </div>
       </div>
-      <div class="subtext">Super Andar Bahar</div>
+      <div class="subtext">${game.title}</div>
     `;
     imageGrid8?.appendChild(item); // optional chaining to be safe
   });
@@ -1601,7 +1601,7 @@ document.addEventListener("DOMContentLoaded", () => {
           <div class="text">Evolution</div>
         </div>
       </div>
-      <div class="subtext">Super Andar Bahar</div>
+      <div class="subtext">${game.title}</div>
     `;
     imageGrid9?.appendChild(item); // optional chaining to be safe
   });
@@ -1618,7 +1618,7 @@ document.addEventListener("DOMContentLoaded", () => {
           <div class="text">Evolution</div>
         </div>
       </div>
-      <div class="subtext">Super Andar Bahar</div>
+      <div class="subtext">${game.title}</div>
     `;
     imageGrid10?.appendChild(item); // optional chaining to be safe
   });
@@ -1635,7 +1635,7 @@ document.addEventListener("DOMContentLoaded", () => {
           <div class="text">Evolution</div>
         </div>
       </div>
-      <div class="subtext">Super Andar Bahar</div>
+      <div class="subtext">${game.title}</div>
     `;
     imageGrid11?.appendChild(item); // optional chaining to be safe
   });
@@ -1652,7 +1652,7 @@ document.addEventListener("DOMContentLoaded", () => {
           <div class="text">Evolution</div>
         </div>
       </div>
-      <div class="subtext">Super Andar Bahar</div>
+      <div class="subtext">${game.title}</div>
     `;
     imageGrid12?.appendChild(item); // optional chaining to be safe
   });
@@ -1686,7 +1686,7 @@ document.addEventListener("DOMContentLoaded", () => {
           <div class="text">Evolution</div>
         </div>
       </div>
-      <div class="subtext">Super Andar Bahar</div>
+      <div class="subtext">${game.title}</div>
     `;
     imageGrid14?.appendChild(item); // optional chaining to be safe
   });
@@ -1703,7 +1703,7 @@ document.addEventListener("DOMContentLoaded", () => {
           <div class="text">Evolution</div>
         </div>
       </div>
-      <div class="subtext">Super Andar Bahar</div>
+      <div class="subtext">${game.title}</div>
     `;
     imageGrid15?.appendChild(item); // optional chaining to be safe
   });
@@ -1720,7 +1720,7 @@ document.addEventListener("DOMContentLoaded", () => {
           <div class="text">Evolution</div>
         </div>
       </div>
-      <div class="subtext">Super Andar Bahar</div>
+      <div class="subtext">${game.title}</div>
     `;
     imageGrid16?.appendChild(item); // optional chaining to be safe
   });
@@ -1737,7 +1737,7 @@ document.addEventListener("DOMContentLoaded", () => {
           <div class="text">Evolution</div>
         </div>
       </div>
-      <div class="subtext">Super Andar Bahar</div>
+      <div class="subtext">${game.title}</div>
     `;
     imageGrid17?.appendChild(item); // optional chaining to be safe
   });
@@ -1754,7 +1754,7 @@ document.addEventListener("DOMContentLoaded", () => {
           <div class="text">Evolution</div>
         </div>
       </div>
-      <div class="subtext">Super Andar Bahar</div>
+      <div class="subtext">${game.title}</div>
     `;
     imageGrid18?.appendChild(item); // optional chaining to be safe
   });
@@ -1771,7 +1771,7 @@ document.addEventListener("DOMContentLoaded", () => {
           <div class="text">Evolution</div>
         </div>
       </div>
-      <div class="subtext">Super Andar Bahar</div>
+      <div class="subtext">${game.title}</div>
     `;
     imageGrid19?.appendChild(item); // optional chaining to be safe
   });
@@ -1788,7 +1788,7 @@ document.addEventListener("DOMContentLoaded", () => {
           <div class="text">Evolution</div>
         </div>
       </div>
-      <div class="subtext">Super Andar Bahar</div>
+      <div class="subtext">${game.title}</div>
     `;
     imageGrid20?.appendChild(item); // optional chaining to be safe
   });
@@ -1805,7 +1805,7 @@ document.addEventListener("DOMContentLoaded", () => {
           <div class="text">Evolution</div>
         </div>
       </div>
-      <div class="subtext">Super Andar Bahar</div>
+      <div class="subtext">${game.title}</div>
     `;
     imageGrid21?.appendChild(item); // optional chaining to be safe
   });
@@ -1822,7 +1822,7 @@ document.addEventListener("DOMContentLoaded", () => {
           <div class="text">Evolution</div>
         </div>
       </div>
-      <div class="subtext">Super Andar Bahar</div>
+      <div class="subtext">${game.title}</div>
     `;
     imageGrid22?.appendChild(item); // optional chaining to be safe
   });
@@ -1839,7 +1839,7 @@ document.addEventListener("DOMContentLoaded", () => {
           <div class="text">Evolution</div>
         </div>
       </div>
-      <div class="subtext">Super Andar Bahar</div>
+      <div class="subtext">${game.title}</div>
     `;
     imageGrid23?.appendChild(item); // optional chaining to be safe
   });
@@ -1856,7 +1856,7 @@ document.addEventListener("DOMContentLoaded", () => {
           <div class="text">Evolution</div>
         </div>
       </div>
-      <div class="subtext">Super Andar Bahar</div>
+      <div class="subtext">${game.title}</div>
     `;
     imageGrid24?.appendChild(item); // optional chaining to be safe
   });
@@ -1873,7 +1873,7 @@ document.addEventListener("DOMContentLoaded", () => {
           <div class="text">Evolution</div>
         </div>
       </div>
-      <div class="subtext">Super Andar Bahar</div>
+      <div class="subtext">${game.title}</div>
     `;
     imageGrid25?.appendChild(item); // optional chaining to be safe
   });
@@ -1890,7 +1890,7 @@ document.addEventListener("DOMContentLoaded", () => {
           <div class="text">Evolution</div>
         </div>
       </div>
-      <div class="subtext">Super Andar Bahar</div>
+      <div class="subtext">${game.title}</div>
     `;
     imageGrid26?.appendChild(item); // optional chaining to be safe
   });
@@ -1907,7 +1907,7 @@ document.addEventListener("DOMContentLoaded", () => {
           <div class="text">Evolution</div>
         </div>
       </div>
-      <div class="subtext">Super Andar Bahar</div>
+      <div class="subtext">${game.title}</div>
     `;
     imageGrid27?.appendChild(item); // optional chaining to be safe
   });
@@ -1924,7 +1924,7 @@ document.addEventListener("DOMContentLoaded", () => {
           <div class="text">Evolution</div>
         </div>
       </div>
-      <div class="subtext">Super Andar Bahar</div>
+      <div class="subtext">${game.title}</div>
     `;
     imageGrid28?.appendChild(item); // optional chaining to be safe
   });
@@ -1941,7 +1941,7 @@ document.addEventListener("DOMContentLoaded", () => {
           <div class="text">Evolution</div>
         </div>
       </div>
-      <div class="subtext">Super Andar Bahar</div>
+      <div class="subtext">${game.title}</div>
     `;
     imageGrid29?.appendChild(item); // optional chaining to be safe
   });
@@ -1958,7 +1958,7 @@ document.addEventListener("DOMContentLoaded", () => {
           <div class="text">Evolution</div>
         </div>
       </div>
-      <div class="subtext">Super Andar Bahar</div>
+      <div class="subtext">${game.title}</div>
     `;
     imageGrid30?.appendChild(item); // optional chaining to be safe
   });
@@ -1975,7 +1975,7 @@ document.addEventListener("DOMContentLoaded", () => {
           <div class="text">Evolution</div>
         </div>
       </div>
-      <div class="subtext">Super Andar Bahar</div>
+      <div class="subtext">${game.title}</div>
     `;
     imageGrid31?.appendChild(item); // optional chaining to be safe
   });
@@ -1992,7 +1992,7 @@ document.addEventListener("DOMContentLoaded", () => {
           <div class="text">Evolution</div>
         </div>
       </div>
-      <div class="subtext">Super Andar Bahar</div>
+      <div class="subtext">${game.title}</div>
     `;
     imageGrid32?.appendChild(item); // optional chaining to be safe
   });
@@ -2009,7 +2009,7 @@ document.addEventListener("DOMContentLoaded", () => {
           <div class="text">Evolution</div>
         </div>
       </div>
-      <div class="subtext">Super Andar Bahar</div>
+      <div class="subtext">${game.title}</div>
     `;
     imageGrid33?.appendChild(item); // optional chaining to be safe
   });
@@ -2026,7 +2026,7 @@ document.addEventListener("DOMContentLoaded", () => {
           <div class="text">Evolution</div>
         </div>
       </div>
-      <div class="subtext">Super Andar Bahar</div>
+      <div class="subtext">${game.title}</div>
     `;
     imageGrid34?.appendChild(item); // optional chaining to be safe
   });
@@ -2043,7 +2043,7 @@ document.addEventListener("DOMContentLoaded", () => {
           <div class="text">Evolution</div>
         </div>
       </div>
-      <div class="subtext">Super Andar Bahar</div>
+      <div class="subtext">${game.title}</div>
     `;
     imageGrid35?.appendChild(item); // optional chaining to be safe
   });
