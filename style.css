@@ -15,6 +15,9 @@ html {
 .main{
   margin: 0px 16px;
 }
+ .divider{
+    display: none !important;
+  }
 
 a.no-underline {
   text-decoration: none;
@@ -246,6 +249,9 @@ a.no-underline * {
 
   .cards {
     margin-top: 20px;
+    display: block !important;
+  }
+   .divider{
     display: block !important;
   }
   .gallery-container {
